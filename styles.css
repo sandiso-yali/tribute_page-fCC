@@ -23,7 +23,6 @@ body{
 .navbar{
   display: flex;
   justify-content: space-around;
-  
 }
 .navbar .items{
   cursor: pointer;
@@ -42,20 +41,13 @@ body{
 /* **************** */
 
 /* Main Content of the tribute webpage */
-.main{
-  min-width: 210px;
-}
 #img-div{
-  margin-top: 30px;
-  background-color: blue;
-  max-width: 60vw;
-  height: auto;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
+  background-color: #adadad;
+  padding: 10px 0;
+  margin: 10px 20px;
 }
-.image{
-  max-width: 400px;
+#image{
+  width: 90%;
   height: auto;
 }
