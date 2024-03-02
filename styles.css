@@ -1,0 +1,61 @@
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+}
+body{
+  padding: 0;
+  margin: 0;
+  background-color: #dee8e5;
+  font-family: sans-serif;
+}
+
+/* Heading and navbar */
+.header{
+  width: 100%;
+}
+#title{
+  background-color: #3e4344;
+  text-align: center;
+  color: #dee8e5;
+  padding: 15px 10px;
+}
+.navbar{
+  display: flex;
+  justify-content: space-around;
+  
+}
+.navbar .items{
+  cursor: pointer;
+  border: none;
+  width: 100%;
+  background-color: #8a918f;
+  color: #fff;
+  text-align: center;
+  flex-wrap: wrap;
+  transition: background-color 0.4s ease, color 0.4s ease;  
+}
+.items:hover{
+  background-color: #3e4344;
+  color: #dee8e5;
+}
+/* **************** */
+
+/* Main Content of the tribute webpage */
+.main{
+  min-width: 210px;
+}
+#img-div{
+  margin-top: 30px;
+  background-color: blue;
+  max-width: 60vw;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.image{
+  max-width: 400px;
+  height: auto;
+}
