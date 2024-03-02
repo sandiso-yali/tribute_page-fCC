@@ -41,13 +41,43 @@ body{
 /* **************** */
 
 /* Main Content of the tribute webpage */
+/* Image section */
 #img-div{
   text-align: center;
   background-color: #adadad;
-  padding: 10px 0;
+  padding: 10px 10px;
   margin: 10px 20px;
 }
 #image{
-  width: 90%;
+  max-width: 100%;
   height: auto;
 }
+img{
+  display: block;
+}
+#img-caption{
+  padding: 5px 0;
+}
+/* ****************** */
+/* Tribute Information */
+.main{
+  margin: 10px 20px;
+  text-align: center;
+  padding: 10px 20px;
+}
+a{
+  text-decoration: none;
+}
+#tribute-link{
+  color: #dee8e5;
+  text-decoration: underline;
+}
+.footer{
+  margin-top: 10px;
+  padding: 20px 20px;
+  text-align: center;
+  background-color: #3e4344;
+  color: #dee8e5;
+}
+
+/* **************** */
